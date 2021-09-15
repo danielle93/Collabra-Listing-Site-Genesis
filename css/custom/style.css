@@ -3148,6 +3148,11 @@ header.toggle_header .logo img#logo {
 	.v-center{
 		transform: none;
 	}
+
+	.agent-photo-contact {
+		width: 200px;
+		float: none;
+	}
   }
 
   @media (min-width: 992px) and (max-width: 1199px){
