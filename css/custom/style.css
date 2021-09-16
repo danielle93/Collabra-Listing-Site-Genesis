@@ -99,6 +99,14 @@ padding: 0 2.5em;
 border-radius: 150px;
 }
 
+/* Property Description */
+section.property-description{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
 
 /* ========  Property Details ========= */
 .property_details{
@@ -2742,6 +2750,16 @@ color: #2e2f30;
     border-radius: 0px;
 }
 
+button.theme_btn2 {
+	margin-top: 30px;
+	display: block;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    border-radius: 0px;
+	padding: 0 2em;
+}
+
 
 
 					/*____________BANNER___________*/
@@ -3147,8 +3165,16 @@ header.toggle_header .logo img#logo {
 		height: 64px;
 	}
 
-	.v-center{
-		transform: none;
+	section.property-description div{
+		text-align: center;
+		margin: 0 auto !important;
+		padding: 1em 2em;
+	}
+
+	section.property-description div button{
+		text-align: center;
+		margin: 0 auto !important;
+		margin-top: 20px !important;
 	}
   }
 
@@ -3159,5 +3185,17 @@ header.toggle_header .logo img#logo {
 		margin-top: 50px;
 		left: -50% !important;
 		transform: translateX(50%);
+	}
+
+	section.property-description div{
+		text-align: center !important;
+		margin: 0 auto !important;
+		padding: 1em 3em ;
+	}
+
+	section.property-description div button{
+		text-align: center;
+		margin: 0 auto !important;
+		margin-top: 20px !important;
 	}
   }
