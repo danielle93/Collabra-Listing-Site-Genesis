@@ -1315,6 +1315,8 @@ section.gallery {
 	display: none;
 	background: #7f8c8d;
 	perspective: 1000;
+	left: 50%;
+    transform: translatex(-50%);
   }
   
   .filter {
@@ -3147,18 +3149,6 @@ header.toggle_header .logo img#logo {
 
 	.v-center{
 		transform: none;
-	}
-
-	.agent-photo-contact {
-		width: 200px;
-		float: none;
-	}
-
-	form{
-		margin-top: 20px;
-	}
-	.bottom_footer{
-		margin-bottom: 70px;
 	}
   }
 
