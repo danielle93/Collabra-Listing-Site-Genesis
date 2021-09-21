@@ -40,6 +40,37 @@ html{
 	background: #f1f1f1;
 }
 
+.lot-icon svg{
+	fill: #9da6ad;
+ 	width: 60px;
+ 	height: 80px;
+ 	stroke:#9da6ad;
+ 	stroke-width:2;
+ 	stroke-miterlimit:10;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.lot-icon svg{
+		fill: #9da6ad;
+		 width: 60px;
+		 height: 59px;
+		 stroke:#9da6ad;
+		 stroke-width:2;
+		 stroke-miterlimit:10;
+	}
+}
+
+@media (max-width: 767px){
+	.lot-icon svg{
+		fill: #9da6ad;
+		 width: 60px;
+		 height: 45px;
+		 stroke:#9da6ad;
+		 stroke-width:2;
+		 stroke-miterlimit:10;
+	}
+}
+
 body {
     max-width: 1400px;
     margin: 0 auto;
